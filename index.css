@@ -1,0 +1,71 @@
+body{
+    background-color:hsl(47, 88%, 63%)
+    ;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+.card{
+    width: 300px;
+    height:440px;
+    background-color: white;
+    border: solid 1px  hsl(0, 0%, 7%) ; 
+    border-radius: 15px;
+    display: flex;
+    /* align-items: center; */
+    justify-content:flex-start;
+    box-shadow:7px 7px  hsl(0, 0%, 7%);
+} 
+img{
+    width: 270px;   
+    border-radius: 10px;
+    display: flex;
+    align-self: auto;
+    margin: 15px;
+
+}
+.card-content{
+margin-left: 15px;
+}
+.titel{
+    font-weight: bold;
+    color: black;
+    background-color: hsl(47, 88%, 63%) ;
+    width: 65px; 
+    padding: 2px; 
+    font-size: small; 
+    text-align: center;
+    border-radius: 4px;
+
+}
+.h6{
+    color:  hsl(0, 0%, 7%);
+    font-weight: bold;
+    font-size: x-small;
+    margin-bottom: 10px;
+}
+.h4{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 20px;
+}
+.description{
+    color: hsl(0, 0%, 50%) ;
+    font-weight:normal;
+    font-size: small;
+}
+.id,a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(0, 0%, 7%) ;
+    font-weight: bold;
+    font-size: small;
+
+}
